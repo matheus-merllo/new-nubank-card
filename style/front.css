@@ -1,0 +1,52 @@
+
+#card-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+    backface-visibility: hidden;
+}
+
+#mastercard{    
+    width: 110px;
+    align-self: flex-start;    
+    justify-self: flex-start;
+}
+
+#chip{
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    transform: rotateZ(90deg);
+    top: 40px;
+    left: 130px;
+    z-index: 1;
+}
+
+#chip-background{
+    background: rgba(90, 90, 90, 0.868);
+    position: absolute;
+    width: 46px;
+    height: 60px;
+    top: 50px;
+    left: 167px; 
+    border-radius: 10px;
+}
+
+#name{
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+    color: white;
+    opacity: 0.9;
+}
+
+#nu{
+    position: absolute;
+    width: 100px;
+    align-self: flex-end;    
+    justify-self: left;
+    bottom: 80px;
+    opacity: 0.9;
+}
